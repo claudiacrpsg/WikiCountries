@@ -1,9 +1,10 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
 }
 
-.mainBanner{
+/* Banner */
+.mainBanner {
     height: 150px;
     background-color: #38475c;
     display: flex;
@@ -12,40 +13,46 @@ body{
     color: whitesmoke;
 }
 
-.mainIcon{
+.worldIcon {
+    height: 100px;
     margin-right: 10px;
 }
 
-.worldIcon{
-    height: 100px;
-}
-
-.searchAndList{
+/* Search and Country List */
+.searchAndList {
     padding: 20px;
 }
 
-.countryInfo{
-    padding: 60px;
-}
-
-.countryList{
+.search {
     padding: 20px;
 }
 
-.search{
-    padding: 20px;
-}
-
-.list-group-item:hover{
+.list-group-item:hover {
     background-color: #d4d2d2;
 }
 
-.ScrollStyle{
+.scroll {
     max-height: 300px;
     overflow-y: scroll;
 }
 
-h2{
+.countryList {
+    padding: 20px;
+}
+
+/* Country Information */
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e5d5d;
+}
+
+h2 {
     color: #FD5E6A;
     margin-bottom: 30px;
+}
+
+.countryInfo {
+    padding: 60px;
 }
